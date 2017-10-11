@@ -124,6 +124,7 @@ class DashBoardActivity : AppCompatActivity() {
                     startActivity(i)
                 }
                 NavigationForWhat.OPTION_EVENT -> {
+                    toast(goingTo + "EventBusActivity")
                     var i: Intent = Intent(this@DashBoardActivity, EventBusActivity::class.java)
                     startActivity(i)
                 }
