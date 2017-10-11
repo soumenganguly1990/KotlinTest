@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ViewFlipper
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:flipInterval="3000"
+            android:autoStart="true">
+
+            <com.yinglan.shadowimageview.ShadowImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                app:shadowRound="15dp"
+                app:shadowSrc="@drawable/pex1" />
+
+            <com.yinglan.shadowimageview.ShadowImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/shadow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                app:shadowRound="15dp"
+                app:shadowSrc="@drawable/pex2" />
+
+            <com.yinglan.shadowimageview.ShadowImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/shadow3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                app:shadowRound="15dp"
+                app:shadowSrc="@drawable/pex3" />
+
+            <com.yinglan.shadowimageview.ShadowImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/shadow4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                app:shadowRound="15dp"
+                app:shadowSrc="@drawable/pex4" />
+
+        </ViewFlipper>
+
+    </LinearLayout>
+
+</RelativeLayout>

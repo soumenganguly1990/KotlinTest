@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/option_a"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Anko Toast" />
+        <item
+            android:id="@+id/option_b"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Anko Dialog" />
+        <item
+            android:id="@+id/option_c"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Option C" />
+        <item
+            android:id="@+id/option_d"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Option D" />
+    </group>
+    <item android:title="Complex">
+        <menu>
+            <item
+                android:id="@+id/mnuComplex"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Complex Activity"/>
+            <item
+                android:id="@+id/mnuEvent"
+                android:icon="@mipmap/ic_launcher"
+                android:title="EventBus Test"/>
+            <item
+                android:id="@+id/mnuObjectBox"
+                android:icon="@mipmap/ic_launcher"
+                android:title="ObjectBox Test"/>
+            <item
+                android:id="@+id/mnuRxJavaTest"
+                android:icon="@mipmap/ic_launcher"
+                android:title="RxJava Test"/>
+        </menu>
+    </item>
+</menu>

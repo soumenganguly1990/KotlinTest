@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KotlinTest</string>
+
+    <!-- other strings -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_event_bus">EventBusActivity</string>
+
+</resources>
