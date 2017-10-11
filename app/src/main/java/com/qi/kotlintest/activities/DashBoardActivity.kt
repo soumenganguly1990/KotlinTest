@@ -128,10 +128,10 @@ class DashBoardActivity : AppCompatActivity() {
                     startActivity(i)
                 }
                 NavigationForWhat.OPTION_OBJECTBOX -> {
-                    toast(goingTo + "ObjectBox Page")
+                    toast("hoo hoooo")
                 }
                 NavigationForWhat.OPTION_RXJAVA -> {
-                    toast(goingTo + "RxJava Page")
+                    toast("haaa haaa haaa")
                 }
             }
         }, 300)
