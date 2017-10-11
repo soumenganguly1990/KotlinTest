@@ -98,7 +98,7 @@ class DashBoardActivity : AppCompatActivity() {
 
     private fun performDrawerAction(navigationForWhat: NavigationForWhat = NavigationForWhat.OPTION_A) {
         var mHandler = Handler()
-        var goingTo: String = "Selected Fragment "
+        var goingTo: String = "Selected "
         mHandler.postDelayed(Runnable {
             mHandler.removeCallbacks { this }
             when (navigationForWhat) {
@@ -128,8 +128,10 @@ class DashBoardActivity : AppCompatActivity() {
                     startActivity(i)
                 }
                 NavigationForWhat.OPTION_OBJECTBOX -> {
+                    toast(goingTo + "ObjectBox Page")
                 }
                 NavigationForWhat.OPTION_RXJAVA -> {
+                    toast(goingTo + "RxJava Page")
                 }
             }
         }, 300)
